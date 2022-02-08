@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Details</title>
+        <meta name="author" content="Olan" />
+        <meta name="description" content="แฮมสเตอร์ราคาจับต้องได้ " />
+        <meta name="keywords" content="แฮมสเตอร์, HHamster, สัตว์เลี้ยง, หนู" />
+        <meta name="robots" content="index,follow" />
+        <meta property="og:title" content="OlanLab" />
+        <meta property="og:description" content="สอนเขียนเว็บไซต์ ง่ายๆ สบายๆ" />
+        <meta property="og:image" content="http://olanlab.com/logo.jpg" />
+        <meta property="og:url" content="file:///D:/%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%84%E0%B8%8B%E0%B8%95%E0%B9%8C/hamster%20shop/home.html" />
+
+    </head>
+
+    <body>
+        <h1>Details</h1>
+        <center><img src="image/cb/1.jpg" alt="Campbell’s Dwarf Russian Hamster" width="300" height="200"></center>
+        <h2>Campbell’s Dwarf Russian Hamster</h2>
+        <p>
+            เรียกสั้น ๆ ว่า “แคมเบล” โดยปกติหนูแฮมสเตอร์สายพันธุ์นี้จะมีลักษณะเด่นคือลำตัวมีสีขนน้ำตาลเทาและสีคาดตัวที่กลางหลังเข้มกว่าขนส่วนลำตัว แต่ก็อาจจะผสมออกมาได้เป็นสีอื่นเช่นกัน นิสัยชอบกัดแทะเอาแต่ใจนิดหน่อย สามารถนำไปเลี้ยงรวมกับตัวอื่นได้ สามารถเข้าสังคมได้ มีลักษณะคล้ายกับชนิด Winter White  <br>
+             <strong>สี: </strong> normal,Pearl <br>
+             <strong>ราคา: </strong> 60-80 บาท
+
+        </p>
+        <center><Button class="btn-1" onclick="location.href='product.html'">ย้อนกลับ</Button></center>
+    </body>
+
+    <style>
+        h1,h2,p{font-family: 'Architects Daughter', cursive;}
+        body{
+            margin: 25px;
+            font-family: 'Architects Daughter', cursive;
+            background-image: url('image/cb/bg.jpg');              
+            background-size: cover;
+        }
+        button {
+            padding: 20px 50px;
+            font-size: 1.5rem;
+            cursor: pointer;
+            border: 0px;
+            background: transparent;
+            position: relative;
+            margin: 20px;
+            transition: all .25s ease;
+
+        }
+        .btn-1 {
+            background: hsla(0, 100%, 47%, 0.4);
+            color: #fff;
+            border-radius: 30px;
+            transition: all .25s ease;
+        }
+        .btn-1::after,.btn-1::before {
+            content: '';
+            position: absolute;
+            opacity: .3;
+            background: hsla(0, 100%, 47%, 0.4);
+            border-radius: inherit;
+            width: 100%;
+            height: 100%;
+            left: 0px;
+            bottom: 0px;
+            z-index: -1;
+            transition: all .25s ease;
+        }
+        .btn-1:hover {
+            transform: translate(-12px, -12px);
+        }
+        .btn-1:hover:after {
+            transform: translate(6px, 6px);
+        }
+        .btn-1:hover:before {
+            transform: translate(12px, 12px);
+        }
+    </style>     
+</html>

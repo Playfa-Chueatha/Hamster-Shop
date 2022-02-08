@@ -1,0 +1,44 @@
+h1 {
+    text-size-adjust: 50px;
+    font-family: 'Architects Daughter', cursive;
+    color: hsla(18, 100%, 49%, 0.5);
+    padding: 20px;
+    background-color: rgba(253, 207, 151, 0.637);
+    margin-top: 0cm;
+}
+h2,p,ul,li,ol,td{
+    font-family: 'Architects Daughter', cursive;
+    color: hsla(0, 0%, 3%, 0.5);
+    text-size-adjust: 20px;
+    
+}
+body{
+    background: rgb(236, 196, 196) url(../image2/bgbg.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid rgba(194, 89, 19, 0.767);
+}
+.bd{
+    padding: 60px;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    width: 700px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(238, 221, 221, 0.527);
+}

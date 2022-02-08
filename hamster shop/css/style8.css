@@ -1,0 +1,107 @@
+h1 {
+    color: hsla(9, 100%, 64%, 0.8);
+    font-family: 'Architects Daughter', cursive;
+    font-size: 300%;
+    text-align: center;
+  }
+body {
+    background: rgb(236, 196, 196) url(../image2/bg3.jpg) no-repeat;
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      font-family: 'Architects Daughter', cursive;
+      align-items: center; 
+}
+.menubar {
+    width: 100%;
+    height: 50px;
+    background:rgba(255, 153, 71, 0.6);
+    box-shadow: 0 0 10px #666; 
+  }
+  
+  .menubar .logo {
+    float: left;
+  }
+  
+  .menubar h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 10px;
+  }
+  .menubar ul.menu {
+    list-style: none;
+    float: right;
+  }
+  .menubar ul.menu li {
+    float: left;
+    margin-right: 20px;
+  }
+  .menubar ul.menu li a {
+    text-decoration: none;
+    color: #333;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+  }
+  .menubar ul.menu li a:hover {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0;
+  }
+  .button {
+    
+    --offset: 10px;
+    --border-size: 2px;
+    
+    display: block;
+    position: relative;
+    padding: 1.5em 3em;
+    appearance: none;
+    border: 0;
+    background: transparent;
+    color: #e55743;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 0;
+    box-shadow: inset 0 0 0 var(--border-size) currentcolor;
+    transition: background .8s ease;
+  }
+  .SM{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 600px;
+    height: auto;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(238, 221, 221, 0.527);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+  .button {
+	
+    --offset: 10px;
+    --border-size: 2px;
+    
+    display: block;
+    position: relative;
+    padding: 1.5em 3em;
+    appearance: none;
+    border: 0;
+    background: transparent;
+    color: #e55743;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 0;
+    box-shadow: inset 0 0 0 var(--border-size) currentcolor;
+    transition: background .8s ease;
+  }

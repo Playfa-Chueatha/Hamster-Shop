@@ -1,0 +1,83 @@
+h1 {
+  color: hsla(9, 100%, 64%, 0.8);
+  font-family: 'Architects Daughter', cursive;
+  font-size: 300%;
+  text-align: center;
+}
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Architects Daughter', cursive;  
+}
+.clearfix {
+  clear: both;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.menubar {
+  width: 100%;
+  height: 50px;
+  background:rgba(255, 153, 71, 0.6);
+  box-shadow: 0 0 10px #666; 
+}
+
+.menubar .logo {
+  float: left;
+}
+
+.menubar h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: normal;
+  padding: 10px;
+}
+.menubar ul.menu {
+  list-style: none;
+  float: right;
+}
+.menubar ul.menu li {
+  float: left;
+  margin-right: 20px;
+}
+.menubar ul.menu li a {
+  text-decoration: none;
+  color: #333;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 20px;
+  transition: all 0.3s ease;
+}
+.menubar ul.menu li a:hover {
+  border-bottom: 2px solid #333;
+  padding-bottom: 0;
+}
+.header {
+  background: rgb(236, 196, 196) url(../image/bg.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
+}
+
+.header_area {
+  padding-top: 150px;
+  text-align: center;
+  color: rgba(10, 10, 10, 0.9);
+  margin: 0 auto;
+}
+.header_area h2 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 60px;
+}
+.header_area p {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 16px;
+}
